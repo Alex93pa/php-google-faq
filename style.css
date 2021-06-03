@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header{
+    position: fixed;
+} */
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+.selected{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+hr{
+    margin: -30px;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.sublist{
+    margin-left: 100px;
+}
