@@ -105,7 +105,7 @@ $google_faqs = [
 
 <!-- MAIN -->
     <main>
-    <div>
+        <div>
             <?php foreach ($google_faqs as $faq) { ?>
                 <h2><?php echo $faq['question'] ?></h2>
                 <p><?php echo $faq['answer'] ?></p>
